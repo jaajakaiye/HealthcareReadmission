@@ -1,0 +1,11 @@
+age,gender,diagnosis_code,previous_admissions,medications,blood_pressure,readmitted
+45,M,I10,1,Lisinopril,120/80,1
+67,F,E11,2,Metformin,140/90,0
+55,M,I25,3,Aspirin,130/85,1
+32,F,J45,0,Albuterol,115/75,0
+74,M,K21,4,Omeprazole,150/95,1
+40,F,E78,1,Atorvastatin,125/80,0
+63,M,G20,3,Levodopa,135/88,1
+50,F,I48,2,Warfarin,128/84,0
+28,F,F33,0,Fluoxetine,118/76,0
+80,M,N18,5,Furosemide,145/92,1

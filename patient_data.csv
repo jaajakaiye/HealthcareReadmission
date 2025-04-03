@@ -1,4 +1,4 @@
-age,gender,diagnosis_code,previous_admissions,medications,blood_pressure,readmitted
+age,gender,diagnosis_code,previous_admissions,medications,blood_pressure,readmitted_30days
 45,M,I10,1,Lisinopril,120/80,1
 67,F,E11,2,Metformin,140/90,0
 55,M,I25,3,Aspirin,130/85,1

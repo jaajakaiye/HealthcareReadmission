@@ -30,8 +30,8 @@ data.fillna(0, inplace=True)  # Replace missing values with 0 (or use other stra
 data = pd.get_dummies(data, drop_first=True)
 
 # Separate features (X) and the target variable (y)
-X = data.drop(columns=['readmitted'])  # Replace 'readmitted' with the actual target column
-y = data['readmitted']  # Binary target variable (e.g., 0 = No, 1 = Yes)
+X = data.drop(columns=['readmitted_30days'])  # Replace 'readmitted' with the actual target column
+y = data['readmitted_30days']  # Binary target variable (e.g., 0 = No, 1 = Yes)
 
 # Step 4: Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
